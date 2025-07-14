@@ -1,14 +1,11 @@
-# jor number yar  1-100 theke ber  korar upay
-n = int ( input("Enter the number :  "))
 
-def num (n):
-    n = 1
-    i = 0
+def even_sum(n):
+    total = 0
+    for i in range(1, 101):
+        if i % 2 == 0:
+            total += i
+    return total
 
-    if i in range (2,n):
-        i +=1
-        print(n)
-
-num (n)        
-
-    
+# ফাংশন কল করা
+result = even_sum()
+print("১ থেকে ১০০ পর্যন্ত জোড় সংখ্যার যোগফল:", result)

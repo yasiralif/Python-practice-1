@@ -14,3 +14,6 @@ print("Current time:", t)
 now= datetime.now()
 t1 = now.time()
 print("Current time:", t1)
+
+d= datetime.today()
+print(d)
